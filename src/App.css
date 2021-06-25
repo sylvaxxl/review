@@ -1,0 +1,48 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  width: 60vw;
+  margin: auto;
+  margin-top: 15%;
+  color: aliceblue;
+  align-items: center;
+  background-color: rgba(250, 235, 215, 0.164);
+}
+
+body {
+  background-color: rgb(255, 102, 0);
+}
+
+h1 {
+  text-align: center;
+}
+
+.clear_btn {
+  width: 50%;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  margin-bottom: 20px;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.person_list {
+  display: flex;
+  margin-bottom: 20px;
+  align-items: center;
+  background-color: rgb(240, 248, 255);
+  height: 20vh;
+  width: 50vw;
+  padding: 20px;
+  border-radius: 50px;
+  color: rgb(255, 102, 0);
+  box-shadow: 0 5px 20px rgb(71, 71, 71);
+}
+
+.person_image {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  margin-right: 20px;
+}
